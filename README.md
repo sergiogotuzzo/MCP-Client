@@ -14,7 +14,7 @@ In `Minecraft.java`
 In `GuiIngame.java`:
 
 1. Search for `public void renderGameOverlay(float partialTicks)` and add `new RenderEvent().call();` before the line `if (this.mc.gameSettings.showDebugInfo)`.
-   (This prevents mods from overlapping the debug overlay, titles and subtitles, scoreboard, and tab list.)
+   (This prevents mods from overlapping the debug overlay, titles and subtitles, scoreboard, chat and tab list.)
 
 In `GameSettings.java`:
 
