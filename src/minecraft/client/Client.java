@@ -31,9 +31,6 @@ public class Client {
 		ModInstances.register(hudManager);
 	}
 	
-	public void shutdown() {
-	}
-	
 	@EventTarget
 	public void onTick(TickEvent event) {
 		if (mc.gameSettings.keyBindModPositioning.isPressed()) {
