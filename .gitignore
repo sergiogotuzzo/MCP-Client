@@ -8,10 +8,6 @@ jars/
 logs/
 reobf/
 runtime/
-src/minecraft/assets/
-src/minecraft/javax/
-src/minecraft/net/
-src/minecraft/Start.java
 temp/
 *.bat
 *.sh
